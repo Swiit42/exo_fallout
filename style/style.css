@@ -10,6 +10,7 @@ h1{
 body{
     width: 100%;
     height: 100%;
+    background: radial-gradient(#FAFAFA, #FAFAFA, #D4D3D3);
 }
 header{
     background-image:url(../images/Fallout-img.jpg);
@@ -55,7 +56,7 @@ header{
     font-weight: 200;
 }
 .text1{
-    width: 55%;
+    width: 55%; 
     font-size: 30px;
     font-weight: 300;
     font-style: italic;
@@ -154,7 +155,7 @@ footer{
 .good p{
     font-family: 'lobster';
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     header{
         height: 350px;
     }
@@ -207,6 +208,35 @@ footer{
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
-
+    .head1 {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    .titre{
+        margin-left: 0px;
+    }
+    .bethesda{
+        margin-left: 0px;
+    }
+    .corps{
+        margin-left: 80px;
+    }
+    .jaune{
+        margin-left: 90px;
+    }
+    .good{
+        left: 380px;
+    }
+    .fallout_icon{
+        bottom: 60px;
+    }
+    .fallout_bas{
+        font-size: 15px;
+    }
+    .text5{
+        font-size: 15px;
+        bottom: 50px;
+        left: 15px; 
+    }
 }
 
