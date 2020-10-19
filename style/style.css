@@ -96,10 +96,6 @@ header{
     color:#F0AD2F;
     font-weight: bold;
 }
-.text4_fin{
-
-}
-
 .fallout_bas{
     font-size: 30px;
     font-weight: 900;
@@ -115,15 +111,13 @@ footer{
     background-color: #303030;
     width: 100%;
     height: 200px;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 .fallout_guy {
     width: 15%;
-    float: left;
-    position: absolute;
-    margin-left: 100px;
-    bottom: 100px;
 }
 .fallout_guy img{
     width: 100%;    
@@ -132,111 +126,22 @@ footer{
     width: 16%;
     float: right;
     margin-right: 100px;
-    position: relative;
-    bottom: 80px;
 }
 .text5 {
     position: absolute;
     text-align: center;
-    bottom: 65px;
-    left: 30px;
+    top: 1230px;
+    left: 920px;
 
 }
 .fallout_icon img{
     width: 100%;
+    position: relative;
 }
 .good{
     font-size: 60px;
-    position: absolute;
-    top: 10px;
-    left: 530px;
     color: white;
 }
 .good p{
     font-family: 'lobster';
-}
-@media screen and (max-width: 768px){
-    header{
-        height: 350px;
-    }
-    h1{
-        font-size: 50px;
-    }
-    .head1{
-        margin-left: 40px;
-    }
-    .titre{
-        margin-left: 0px;
-    }
-    .bethesda{
-        margin-left: 0px;
-        font-size: 25px;
-        padding: 5px;
-    }
-    .text1 {
-        margin-left: 10px;
-        font-size: 25px;
-    }
-    .corps{
-        margin-left: 30px;
-    }
-    .jaune{
-        margin-left: 40px;
-        height: 700px;
-    }
-    footer{
-        height: 150px;
-    }
-    .fallout_guy{
-        margin-left: 40px;
-        bottom: 75px;
-    }
-    .good{
-        left: 270px;
-    }
-    .fallout_icon{
-        bottom: 40px;
-        margin-right: 50px;
-    }
-    .fallout_bas{
-        font-size: 15px;
-    }
-    .text5{
-        bottom: 30px;
-        right: 25px;
-        font-size: 10px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 992px){
-    .head1 {
-        font-size: 30px;
-        margin-left: 50px;
-    }
-    .titre{
-        margin-left: 0px;
-    }
-    .bethesda{
-        margin-left: 0px;
-    }
-    .corps{
-        margin-left: 80px;
-    }
-    .jaune{
-        margin-left: 90px;
-    }
-    .good{
-        left: 380px;
-    }
-    .fallout_icon{
-        bottom: 60px;
-    }
-    .fallout_bas{
-        font-size: 15px;
-    }
-    .text5{
-        font-size: 15px;
-        bottom: 50px;
-        left: 15px; 
-    }
-}
-
+}   
